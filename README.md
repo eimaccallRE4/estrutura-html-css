@@ -18,3 +18,41 @@ Conceitos aplicados
 
 Objetivo
 Praticar fundamentos de desenvolvimento web.
+
+Codigo
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS</title>
+
+    <style>
+        #container {
+            background: #ccc;
+            width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>TÍTULO PRINCIPAL</h1>
+        <p>TEXTO AO QUAL O TÍTULO SE REFERE</p>
+
+        <ul>
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+            <li>ITEM 3</li>
+            <li>ITEM 4</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
